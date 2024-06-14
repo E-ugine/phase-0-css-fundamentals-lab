@@ -3,3 +3,37 @@ body {
   height: 100%;
   margin: 0;
 }
+ nav{
+margin-left: 40%;
+ }
+ 
+h1{
+  text-align: center;}
+  h3{
+    text-align:vertical;
+  }
+ img{
+  display: block;
+  margin:0 auto;
+  width: 50%;
+ }
+ #featured-property {
+  display: grid;
+  hard-width: 800px;
+  text-align: center;
+  
+  
+}
+#featured-property>p{
+  width: 50%;
+  margin: auto;
+}
+#details{
+  display: flex;
+  justify-content: space-between;
+  padding-left: 7px;
+  padding-right: 7px;
+  width: 100%; /* Ensure the section spans the full width of its container */
+  overflow: hidden; /* Clear floats within the container */
+  background-color:red; /* Optional: background color for the section */
+}
